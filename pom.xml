@@ -10,7 +10,7 @@
     </parent>
 
     <artifactId>com.jamannah</artifactId>
-    <packaging>jar</packaging>
+    <packaging>war</packaging>
     <name>My Net Worth</name>
     <description>My Net Worth</description>
 
