@@ -1,14 +1,20 @@
 package com.jamannah;
 
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.boot.builder.SpringApplicationBuilder;
 import org.springframework.boot.web.support.SpringBootServletInitializer;
+import org.springframework.context.annotation.ComponentScan;
+import org.springframework.context.annotation.Configuration;
 
+@Configuration
+@ComponentScan
+@EnableAutoConfiguration
 @SpringBootApplication
-public class Application extends SpringBootServletInitializer {
+public class Application {
 
     public static void main(String[] args) {
-        new Application().configure(new SpringApplicationBuilder(Application.class)).run(args);
+        SpringApplication.run(Application.class, args);
     }
 
 }
