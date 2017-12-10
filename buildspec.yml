@@ -25,4 +25,4 @@ artifacts:
     - 'appspec.yml'
     - 'scripts/start_server'
     - 'scripts/install_dependencies'
-    - 'target/ROOT.war'
+    - 'target/com.jamannah.mynetworth-1.0.0.war'

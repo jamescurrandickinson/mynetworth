@@ -9,10 +9,11 @@
         <version>1.5.9.RELEASE</version>
     </parent>
 
-    <artifactId>com.jamannah</artifactId>
+    <artifactId>com.jamannah.mynetworth</artifactId>
     <packaging>war</packaging>
     <name>My Net Worth</name>
     <description>My Net Worth</description>
+    <version>1.0.0</version>
 
     <dependencies>
         <!-- Compile -->
